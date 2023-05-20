@@ -9,6 +9,7 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      
     }
     
     form {
@@ -62,27 +63,35 @@
     }
     h1{
       font-size: 45px;
+      
+    }
+
+    .ou{
+      color: #FF9F2F;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>OU EST CE QU'ON VA AUJOURD'HUI?</h1>
+    <h1 class="ou">OU EST CE QU'ON VA AUJOURD'HUI?</h1>
   <div id="containe" class="row">
    
     <div id="lef" class="col-sm-6 ">
 		
-      <img src="img1.jpg" class="img-fluid" alt="Votre image" width="500" height="">
+      <img src="img1.jpg" class="img-fluid mt-3" alt="Votre image">
     </div>
     <div id="righ" class="col-sm-6 text-center">
-      <form class="text-center">
-        <h1 class=" text-center mb-5 color-white mt-3">TREND</h1>
-        <input class="mb-4 p-2" type="text" placeholder="Adresse e-mail, Nom d'utilisateur" required>
-        <input class="mb-4 p-2" type="password" placeholder="Mot de passe" required>
-        <button class="mt-5  mb-3" type="submit">Se connecter</button>
+      <form>
+        <h1 class="mb-5 color-white mt-3">TREND</h1>
+        <input class="mb-2 p-3" type="text" placeholder="Adresse e-mail, Nom d'utilisateur" required>
+        <input class="mb-2 p-3" type="text" placeholder="Nom complet" required>
+        <input class="mb-2 p-3" type="password" placeholder="Mot de passe" required>
+        <input class="mb-2 p-3" type="text" placeholder="Confirmation de mot de passe" required>
+        <input class="mb-2 p-3" type="number" placeholder="Tranche d'age" required>
+        <button class="mt-3  mb-3" type="submit">S'inscire</button>
       </form>
       
-      <button class="p-2 pr-4 pl-4 mt-5" type="submit">Pas de compte ? Inscrivez-vous</button>
+      <button class="p-2 pr-5 pl-5 mt-5 w-100" type="submit">Connectez-vous</button>
       
     </div>
   </div>
